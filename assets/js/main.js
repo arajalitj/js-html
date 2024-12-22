@@ -35,8 +35,12 @@
    //    $('ul li:nth-child(2)').hide();
    // });
 
-   $('button').click(function() {
-      $('a[target="_blank"]').hide();
+   // $('button').click(function() {
+   //    $('a[target="_blank"]').hide();
+   // });
+
+   $("p").dblclick(function() {
+      $(this).hide();
    });
    
 })(jQuery);
