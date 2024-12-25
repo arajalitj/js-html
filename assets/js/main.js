@@ -64,8 +64,32 @@
    //    $("p").show(5000);
    // });
 
+   // $("button").click(function(){
+   //    $("p").toggle();
+   // });
+
+   // $("button").click(function(){
+   //    $(".box-1").fadeIn();
+   //    $(".box-2").fadeIn('slow');
+   //    $(".box-3").fadeIn(3000);
+   // });
+
+   // $("button").click(function(){
+   //    $(".box-1").fadeOut();
+   //    $(".box-2").fadeOut('slow');
+   //    $(".box-3").fadeOut(3000);
+   // });
+
+   // $("button").click(function(){
+   //    $(".box-1").fadeToggle();
+   //    $(".box-2").fadeToggle('slow');
+   //    $(".box-3").fadeToggle(1000);
+   // });
+
    $("button").click(function(){
-      $("p").toggle();
+      $(".box-1").fadeTo('slow', 0.3);
+      $(".box-2").fadeTo('slow', 0.4);
+      $(".box-3").fadeTo('slow', 0.6);
    });
    
 })(jQuery);
