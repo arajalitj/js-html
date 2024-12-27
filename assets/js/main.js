@@ -86,10 +86,22 @@
    //    $(".box-3").fadeToggle(1000);
    // });
 
-   $("button").click(function(){
-      $(".box-1").fadeTo('slow', 0.3);
-      $(".box-2").fadeTo('slow', 0.4);
-      $(".box-3").fadeTo('slow', 0.6);
+   // $("button").click(function(){
+   //    $(".box-1").fadeTo('slow', 0.3);
+   //    $(".box-2").fadeTo('slow', 0.4);
+   //    $(".box-3").fadeTo('slow', 0.6);
+   // });
+
+   // $(".btn").click(function(){
+   //    $(".lorem").slideDown(2000);
+   // });
+
+   // $(".btn").click(function(){
+   //    $(".lorem").slideUp(2000);
+   // });
+
+   $(".btn").click(function(){
+      $(".lorem").slideToggle(2000);
    });
    
 })(jQuery);

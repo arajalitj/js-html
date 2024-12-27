@@ -1,11 +1,11 @@
-.box-1 {
+/* .box-1 {
   width: 200px;
   height: 200px;
   background: red;
   margin-top: 20px;
-}
+} */
 
-.box-2 {
+/* .box-2 {
   width: 200px;
   height: 200px;
   background: green;
@@ -17,4 +17,51 @@
   height: 200px;
   background: yellow;
   margin-top: 20px;
+} */
+
+/* .btn {
+  width: 500px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  background: #333;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.lorem {
+  width: 500px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  background: #000;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+} */
+
+.btn {
+  width: 500px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  background: #333;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.lorem {
+  width: 500px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  background: #000;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
