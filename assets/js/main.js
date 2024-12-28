@@ -100,8 +100,37 @@
    //    $(".lorem").slideUp(2000);
    // });
 
-   $(".btn").click(function(){
-      $(".lorem").slideToggle(2000);
+   // $(".btn").click(function(){
+   //    $(".lorem").slideToggle(2000);
+   // });
+
+   // $("button").click(function() {
+   //    $("div").animate({
+   //       left:'800px',
+   //       with:'+=600px',
+   //       height:'+=600px',
+   //       opacity: 0.1,
+   //    });
+   // });
+
+   // $("button").click(function() {
+   //    $("div").animate({
+   //       height:'toggle'
+   //    });
+   // });
+
+   // $("button").click(function() {
+   //    $("div").animate({
+   //       width:'toggle'
+   //    });
+   // });
+
+   $("button").click(function() {
+      var araj = $("div");
+      araj.animate({height: '200px', opacity: '0.5'}, "slow");
+      araj.animate({width: '300px', opacity: '0.5'}, "slow");
+      araj.animate({height: '200px', opacity: '0.5'}, "slow");
+      araj.animate({width: '300px', opacity: '0.5'}, "slow");
    });
    
 })(jQuery);
