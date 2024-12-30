@@ -55,10 +55,35 @@
   margin-top: 50px;
 } */
 
-div {
+/* div {
   width: 500px;
   height: 500px;
   background: red;
   margin-top: 30px;
   position: relative;
+} */
+
+.araj {
+  width: 400px;
+  font-size: 20px;
+  background: red;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.lorem {
+  width: 400px;
+  background: green;
+  padding: 15px;
+  margin: 0 auto;
+  display: none;
+  overflow: hidden;
+}
+
+button {
+  border: 1px solid red;
+  font-size: 30px;
 }

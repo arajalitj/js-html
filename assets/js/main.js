@@ -125,12 +125,20 @@
    //    });
    // });
 
+   // $("button").click(function() {
+   //    var araj = $("div");
+   //    araj.animate({height: '200px', opacity: '0.5'}, "slow");
+   //    araj.animate({width: '300px', opacity: '0.5'}, "slow");
+   //    araj.animate({height: '200px', opacity: '0.5'}, "slow");
+   //    araj.animate({width: '300px', opacity: '0.5'}, "slow");
+   // });
+
+   $(".araj").click(function() {
+      $(".lorem").slideDown(4000);
+   });
+
    $("button").click(function() {
-      var araj = $("div");
-      araj.animate({height: '200px', opacity: '0.5'}, "slow");
-      araj.animate({width: '300px', opacity: '0.5'}, "slow");
-      araj.animate({height: '200px', opacity: '0.5'}, "slow");
-      araj.animate({width: '300px', opacity: '0.5'}, "slow");
+      $(".lorem").stop();
    });
    
 })(jQuery);
